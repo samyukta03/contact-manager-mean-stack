@@ -29,5 +29,13 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ##CRUD operations for a contact manager using NodeJS-Express server, Angular, MongoDB.
 
 List of Contacts stored with options to add, view, edit and delete: 
-![alt text](screenshots/contacts.JPG) 
-<img src="screenshots/contacts.JPG" width="200" height="400" />
+<img src="screenshots/contacts.JPG" width="800" height="800" />
+
+Create a new Contact page : 
+<img src="screenshots/add contact.JPG" width="800" height="800" />
+
+Edit or Update a Contact details page: 
+<img src="screenshots/edit contact.JPG" width="800" height="800" />
+
+View a particular Contact details: 
+<img src="screenshots/view contact.JPG" width="800" height="800" />
