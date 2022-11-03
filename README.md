@@ -30,3 +30,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 List of Contacts stored with options to add, view, edit and delete: 
 ![alt text](screenshots/contacts.JPG) 
+<img src="screenshots/contacts.JPG" width="200" height="400" />
