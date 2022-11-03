@@ -1,0 +1,14 @@
+npm install -g @angular/cli
+
+ng new angular-name
+
+npm i btoostrap @fortawesome/fontawesome-free
+
+npm start
+
+
+server: 
+npm install json-server
+creates package.json & package-lock.json files
+In package.json file add  "start": "json-server --watch db.json -p 9000" 
+json-server: database : create a server folder, create file db.json , this will have properties defined in { } and make sure the naming are matching with files defined in models
