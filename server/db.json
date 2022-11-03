@@ -1,0 +1,50 @@
+{
+  "contacts": [
+    {
+      "id": "D6BNdwnHI",
+      "name": "samyukta",
+      "company": "MIT",
+      "email": "samyu@gmail.com",
+      "title": "Student",
+      "mobile": "9876546787",
+      "photo": "https://icons.iconarchive.com/icons/graphicloads/colorful-long-shadow/256/User-icon.png",
+      "groupId": "2"
+    },
+    {
+      "name": "sree",
+      "photo": "https://play-lh.googleusercontent.com/byKGvBzx-QauMgiDgitW3sz6D6xkBVx2-96BAqanlI8m229BL8zj5UllvViPLoFoqPc=w300",
+      "email": "sree@gmail.com",
+      "mobile": "9587413698",
+      "company": "MS",
+      "title": "SDE",
+      "groupId": "1",
+      "id": "hV-cKBA"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "Colleague"
+    },
+    {
+      "id": "2",
+      "name": "Friend"
+    },
+    {
+      "id": "3",
+      "name": "Family"
+    },
+    {
+      "id": "4",
+      "name": "Service"
+    },
+    {
+      "id": "5",
+      "name": "Community"
+    },
+    {
+      "id": "6",
+      "name": "Social"
+    }
+  ]
+}
