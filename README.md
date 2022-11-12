@@ -25,21 +25,3 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-
-## CRUD operations for a contact manager using NodeJS-Express server, Angular, MongoDB.
-
-List of Contacts stored with options to add, view, edit and delete: 
-
-<img src="screenshots/contacts.JPG" width="800" height="500" />
-
-Create a new Contact page : 
-
-<img src="screenshots/add contact.JPG" width="800" height="500" />
-
-Edit or Update a Contact details page: 
-
-<img src="screenshots/edit contact.JPG" width="800" height="500" />
-
-View a particular Contact details: 
-
-<img src="screenshots/view contact.JPG" width="800" height="500" />
