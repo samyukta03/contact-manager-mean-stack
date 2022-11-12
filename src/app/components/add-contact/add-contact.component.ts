@@ -30,7 +30,7 @@ export class AddContactComponent implements OnInit {
  
   public createSubmit(){
     this.contactService.createContact(this.contact).subscribe((data)=>{
-      this.router.navigate(['/']).then(); //to admin page 
+      this.router.navigate(['/contacts/admin']).then(); //to admin page 
     }, (error) => {
       this.errorMessage=error;
       this.router.navigate(['/contacts/add']).then(); //dont navigate anywhere stay same page

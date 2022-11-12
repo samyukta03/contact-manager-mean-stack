@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
@@ -11,7 +10,12 @@ import { ViewContactComponent } from './components/view-contact/view-contact.com
 import { SpinnerComponent } from './components/spinner/spinner.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { HttpClientModule } from '@angular/common/http'
-import { FormsModule } from '@angular/forms';
+import { FormsModule,ReactiveFormsModule } from '@angular/forms';
+import { LoginComponent } from './components/pages/login/login.component';
+import { SignupComponent } from './components/pages/signup/signup.component';
+import { ProfileComponent } from './components/pages/profile/profile.component';
+import { LinnavbarComponent } from './components/linnavbar/linnavbar.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,12 +26,17 @@ import { FormsModule } from '@angular/forms';
     ViewContactComponent,
     SpinnerComponent,
     PageNotFoundComponent,
+    LoginComponent,
+    SignupComponent,
+    ProfileComponent,
+    LinnavbarComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

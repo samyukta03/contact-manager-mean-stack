@@ -43,7 +43,7 @@ export class EditContactComponent implements OnInit {
   public submitUpdate(){
    if(this.contactId){
     this.contactService.updateContact(this.contact, this.contactId ).subscribe((data)=>{
-      this.router.navigate(['/']).then(); //to admin page 
+      this.router.navigate(['/contacts/admin']).then(); //to admin page 
     }, (error) => {
       this.errorMessage=error;
       this.router.navigate([`/contacts/edit/${this.contactId}`]).then(); //dont navigate anywhere stay same page
